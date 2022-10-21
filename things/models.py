@@ -15,5 +15,6 @@ class Thing(Model):
         blank=True
     )
     quantity = models.IntegerField(
+        unique=False,
         validators=[MinValueValidator(0), MaxValueValidator(100)]
     )
