@@ -93,6 +93,11 @@ target/
 profile_default/
 ipython_config.py
 
+# PyCharm
+*.xml
+*.iml
+*.idea
+
 # pyenv
 .python-version
 
